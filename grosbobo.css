@@ -1,0 +1,110 @@
+h1{
+    text-align:center;
+    font-family: 'Arvo', serif;
+    font-size: 45px;
+}
+
+#corps{
+    width: 500px;
+    height: 550px;
+    margin:auto;
+    border: solid 1px black;
+    background-image: url('corps.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    
+    
+}
+
+#epaule{
+    background-color:orange;
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    position: relative;
+    top: 120px;
+    left: 180px;
+    opacity: 0.7;
+}
+
+#coude{
+    background-color: crimson;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: 150px;
+    left: 290px;
+    opacity: 0.7;
+}
+
+#poignet{
+    background-color: blue;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: 170px;
+    left: 175px;
+    opacity: 0.7;
+}
+
+#genoux{
+    background-color: purple;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: 265px;
+    left:210px;
+    opacity: 0.7;
+}
+
+#chevilles{
+    background-color: green;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: 315px;
+    left: 256px;
+    opacity: 0.7;
+
+}
+
+#text-epaule {
+    display: none;
+    /* height: 300px; */
+    /* width: 100%; */
+    /* border: 1px red solid; */
+}
+
+.text{
+    position: absolute;
+    top: 110px;
+    left: 950px;
+    height: 30px;
+    width: 200px;
+    font-family: 'Arvo', serif;
+
+}
+
+#text-poignet{
+    display: none;
+}
+ 
+#text-coude{
+    display: none;
+}
+
+#text-genoux{
+    display: none;
+}
+
+#text-cheville{
+    display: none;
+}
+
+
+
